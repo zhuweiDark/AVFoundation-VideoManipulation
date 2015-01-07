@@ -15,6 +15,13 @@
 		F1E7D0DE15297AFC00417E16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E7D0DD15297AFC00417E16 /* AppDelegate.m */; };
 		F1E7D0E115297AFC00417E16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E7D0E015297AFC00417E16 /* ViewController.m */; };
 		F1E7D0E415297AFC00417E16 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1E7D0E215297AFC00417E16 /* ViewController.xib */; };
+		F1E7D0ED15297B4D00417E16 /* gizmo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F1E7D0EB15297B4D00417E16 /* gizmo.mp4 */; };
+		F1E7D0F015297B5F00417E16 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E7D0EF15297B5F00417E16 /* QuartzCore.framework */; };
+		F1E7D0F215297B6500417E16 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E7D0F115297B6500417E16 /* MobileCoreServices.framework */; };
+		F1E7D0F415297B6B00417E16 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E7D0F315297B6B00417E16 /* AssetsLibrary.framework */; };
+		F1E7D0F615297B7400417E16 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E7D0F515297B7400417E16 /* CoreMedia.framework */; };
+		F1E7D0F815297B7A00417E16 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E7D0F715297B7A00417E16 /* AVFoundation.framework */; };
+		F1E7D0FB15297BD800417E16 /* AVPlayerDemoPlaybackView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E7D0FA15297BD800417E16 /* AVPlayerDemoPlaybackView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +29,23 @@
 		F1E7D0CD15297AFC00417E16 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F1E7D0CF15297AFC00417E16 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F1E7D0D115297AFC00417E16 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F1E7D0D515297AFC00417E16 /* AVFoundation-VideoManipulation-Info.plist */ = {isa = PBXFileReference; path = "AVFoundation-VideoManipulation-Info.plist"; sourceTree = "<group>"; };
+		F1E7D0D515297AFC00417E16 /* AVFoundation-VideoManipulation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AVFoundation-VideoManipulation-Info.plist"; sourceTree = "<group>"; };
 		F1E7D0D715297AFC00417E16 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F1E7D0D915297AFC00417E16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F1E7D0DB15297AFC00417E16 /* AVFoundation-VideoManipulation-Prefix.pch */ = {isa = PBXFileReference; path = "AVFoundation-VideoManipulation-Prefix.pch"; sourceTree = "<group>"; };
-		F1E7D0DC15297AFC00417E16 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		F1E7D0DB15297AFC00417E16 /* AVFoundation-VideoManipulation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AVFoundation-VideoManipulation-Prefix.pch"; sourceTree = "<group>"; };
+		F1E7D0DC15297AFC00417E16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F1E7D0DD15297AFC00417E16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F1E7D0DF15297AFC00417E16 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		F1E7D0DF15297AFC00417E16 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F1E7D0E015297AFC00417E16 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F1E7D0E315297AFC00417E16 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		F1E7D0EB15297B4D00417E16 /* gizmo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = gizmo.mp4; sourceTree = "<group>"; };
+		F1E7D0EF15297B5F00417E16 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F1E7D0F115297B6500417E16 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F1E7D0F315297B6B00417E16 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		F1E7D0F515297B7400417E16 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		F1E7D0F715297B7A00417E16 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F1E7D0F915297BD800417E16 /* AVPlayerDemoPlaybackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVPlayerDemoPlaybackView.h; sourceTree = "<group>"; };
+		F1E7D0FA15297BD800417E16 /* AVPlayerDemoPlaybackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVPlayerDemoPlaybackView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +53,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1E7D0F815297B7A00417E16 /* AVFoundation.framework in Frameworks */,
+				F1E7D0F615297B7400417E16 /* CoreMedia.framework in Frameworks */,
+				F1E7D0F415297B6B00417E16 /* AssetsLibrary.framework in Frameworks */,
+				F1E7D0F215297B6500417E16 /* MobileCoreServices.framework in Frameworks */,
+				F1E7D0F015297B5F00417E16 /* QuartzCore.framework in Frameworks */,
 				F1E7D0CE15297AFC00417E16 /* UIKit.framework in Frameworks */,
 				F1E7D0D015297AFC00417E16 /* Foundation.framework in Frameworks */,
 				F1E7D0D215297AFC00417E16 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +70,11 @@
 		F1E7D0BE15297AFC00417E16 = {
 			isa = PBXGroup;
 			children = (
+				F1E7D0F715297B7A00417E16 /* AVFoundation.framework */,
+				F1E7D0F515297B7400417E16 /* CoreMedia.framework */,
+				F1E7D0F315297B6B00417E16 /* AssetsLibrary.framework */,
+				F1E7D0F115297B6500417E16 /* MobileCoreServices.framework */,
+				F1E7D0EF15297B5F00417E16 /* QuartzCore.framework */,
 				F1E7D0D315297AFC00417E16 /* AVFoundation-VideoManipulation */,
 				F1E7D0CC15297AFC00417E16 /* Frameworks */,
 				F1E7D0CA15297AFC00417E16 /* Products */,
@@ -82,6 +107,9 @@
 				F1E7D0DF15297AFC00417E16 /* ViewController.h */,
 				F1E7D0E015297AFC00417E16 /* ViewController.m */,
 				F1E7D0E215297AFC00417E16 /* ViewController.xib */,
+				F1E7D0F915297BD800417E16 /* AVPlayerDemoPlaybackView.h */,
+				F1E7D0FA15297BD800417E16 /* AVPlayerDemoPlaybackView.m */,
+				F1E7D0EA15297B1C00417E16 /* Resources */,
 				F1E7D0D415297AFC00417E16 /* Supporting Files */,
 			);
 			path = "AVFoundation-VideoManipulation";
@@ -96,6 +124,14 @@
 				F1E7D0DB15297AFC00417E16 /* AVFoundation-VideoManipulation-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1E7D0EA15297B1C00417E16 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F1E7D0EB15297B4D00417E16 /* gizmo.mp4 */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +187,7 @@
 			files = (
 				F1E7D0D815297AFC00417E16 /* InfoPlist.strings in Resources */,
 				F1E7D0E415297AFC00417E16 /* ViewController.xib in Resources */,
+				F1E7D0ED15297B4D00417E16 /* gizmo.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +201,7 @@
 				F1E7D0DA15297AFC00417E16 /* main.m in Sources */,
 				F1E7D0DE15297AFC00417E16 /* AppDelegate.m in Sources */,
 				F1E7D0E115297AFC00417E16 /* ViewController.m in Sources */,
+				F1E7D0FB15297BD800417E16 /* AVPlayerDemoPlaybackView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +311,7 @@
 				F1E7D0E915297AFC00417E16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
